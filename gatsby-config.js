@@ -1,14 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `pedagogy by parth`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Parth Shah`,
+      summary: `Hi I'm Parth, and I'm currently an Experiential Learning Manager at Lambda School. My previous work
+      experience includes teaching high school math and computer science, along with developing computer science
+      curriculum for Codecademy and GitHub. I strive to create engaging lessons that focus on student discovery and 
+      most importantly, fun. Below are samples of some lessons and curricula that I've developed and taught.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `party_shah`,
     },
   },
   plugins: [
