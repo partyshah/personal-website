@@ -12,8 +12,11 @@ const Layout = ({ location, title, children }) => {
       <h1
         style={{
           ...scale(1.5),
+          fontFamily: `Noticia Text, serif`,
+          fontWeight: "normal",
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          fontSize: "3em"
         }}
       >
         <Link
@@ -31,7 +34,8 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          fontFamily: `Noticia Text, serif`,
+          fontWeight: "normal",
           marginTop: 0,
         }}
       >

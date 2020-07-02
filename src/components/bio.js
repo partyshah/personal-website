@@ -43,7 +43,14 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <p>
+      <p
+       style={{
+        fontFamily: `Proxima Nova, sans-serif`,
+        fontWeight: "normal",
+        color: "#828282",
+        fontSize: "0.875em"
+      }}
+      >
         {author.summary}
         {`  `}
         <a href={`https://twitter.com/${social.twitter}`}>

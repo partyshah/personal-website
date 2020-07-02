@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Pedagogy by Parth" />
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -24,19 +24,32 @@ const BlogIndex = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link 
+                style={{ boxShadow: `none`,
+                fontFamily: `Novicia Text, serif`,
+                fontWeight: "normal",
+                color: "#7F19E5",
+                fontSize: '1.125em',
+              }}
+              to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
             </header>
             <section>
               <p
+              style={{ boxShadow: `none`,
+              fontFamily: `Proxima Nova, sans-serif`,
+              fontWeight: "normal",
+              color: "#828282",
+              fontSize: '0.875em',
+            }}
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
               />
             </section>
+            <hr />
           </article>
         )
       })}
@@ -61,7 +74,6 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             title
             description
           }
