@@ -1,5 +1,6 @@
 ---
 title: bringing experimentation to calculus
+date: "2020-05-01T22:12:03.284Z"
 description: "a lesson that teaches students to discover disk method through lemons"
 ---
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
