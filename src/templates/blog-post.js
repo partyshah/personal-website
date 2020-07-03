@@ -34,6 +34,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               ...scale(-1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
+              fontFamily: `Proxima Nova, sans-serif`
             }}
           >
             {post.frontmatter.date}

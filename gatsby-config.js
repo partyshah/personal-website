@@ -8,8 +8,8 @@ module.exports = {
       curriculum for Codecademy and GitHub. I strive to create engaging lessons that focus on student discovery and 
       most importantly, fun. Below are samples of some lessons and curricula that I've developed and taught.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `a collection of teaching experiences`,
+    siteUrl: `https://pedagogybyparth.com/`,
     social: {
       twitter: `party_shah`,
     },
@@ -63,13 +63,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Pedagogy by Parth`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.jpeg`,
       },
     },
     `gatsby-plugin-react-helmet`,

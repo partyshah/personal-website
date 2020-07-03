@@ -51,7 +51,10 @@ const Bio = () => {
         fontSize: "0.875em"
       }}
       >
-        {author.summary}
+      Hi I'm Parth, and I'm currently an Experiential Learning Manager at <a href={`https://lambdaschool.com/`}>Lambda School</a>. 
+      My previous work experience includes teaching high school math and computer science, along with developing computer science
+      curriculum for Codecademy and GitHub. I strive to create engaging lessons that focus on student discovery and 
+      most importantly, fun. Below are samples of some lessons and curricula that I've developed and taught.
         {`  `}
         <a href={`https://twitter.com/${social.twitter}`}>
           Follow me on twitter!
