@@ -10,6 +10,7 @@ module.exports = {
     },
     description: `a collection of teaching experiences`,
     siteUrl: `https://pedagogybyparth.com/`,
+    image:`content/assets/icon.jpeg`,
     social: {
       twitter: `party_shah`,
     },
